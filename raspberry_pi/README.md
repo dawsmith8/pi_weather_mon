@@ -49,8 +49,11 @@ sudo pip install influxdb
 ```
 
 Based on the Adafruit python code - make some scripts to gather data from the sensor:
-1. [Script to write to file](temp_pressure_to_log.py)
-2. [Script to write to InfluxDB](temp_pressure_toinflux.py) note - to have this work, you'll need influx setup and will have to modify the variables for your influx server
+
+1.  [Script to write to file](./temp_pressure_to_log.py)
+
+2.  [Script to write to InfluxDB](./temp_pressure_toinflux.py)
+note - to have this work, you'll need influx setup and will have to modify the variables for your influx server
 
 ### Scheduling the scripts to run:
 
@@ -68,5 +71,5 @@ add lines like:
 BMP180 on breadboard:
 ![BMP180_Breadboard](../imgs/bmp_breadboard.jpg)
 
-Sensore and Pi setup:
+Sensor and Pi setup:
 ![Pi_and_Sensor](../imgs/pi_and_bmp180.jpg)
